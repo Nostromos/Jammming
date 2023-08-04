@@ -17,7 +17,9 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
+
+TODO Come back to this section when you've got a project up and running
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -25,6 +27,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+-->
 
 
 <!-- PROJECT LOGO -->
@@ -42,8 +45,10 @@
     <a href="https://github.com/nostromos/jammming"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <!-- TODO Update demo link when the app is ready to be deployed
     <a href="https://github.com/nostromos/jammming">View Demo</a>
     ·
+    -->
     <a href="https://github.com/nostromos/jammming/issues">Report Bug</a>
     ·
     <a href="https://github.com/nostromos/jammming/issues">Request Feature</a>
@@ -83,8 +88,40 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+A website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account. A lot of this stuff seems pretty basic to any experienced devs but this is a big reach for me and will take some time. If I make it to initial release, that'll be a victory. I may come up with ideas for future features & enhancements down the line and while I'll track those in issues, I may not continue to develop this further.
 
+The main goals of this project are:
+
+- Building a web app using React
+- Version controlling the application with Git and host the repository on GitHub
+- Integrating with Spotify (maybe others too)
+- Deploying the application somewhere cost-effective
+- Writing good documentation ncluding:
+    - The purpose of the project
+    - Technologies used
+    - How to get it set up yourself
+    - Features
+    - Future work
+
+The basic feature list should include:
+- Users can search for songs by song title.
+- You can also include functionality to search by other attributes like artist’s name, genre, etc.
+- Users can see information about each song like title, artist, and album for songs they queried
+- You can also include other information – the design is up to you
+- Users can export their custom playlist to their personal Spotify account
+
+Prerequisites:
+- HTML
+- CSS
+- JavaScript
+- React
+- HTTP Requests and Responses
+- Authentication
+
+
+<!-- TODO Update with a screenshot when the initial release is built and deployed
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -92,13 +129,14 @@
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+<!-- TODO Add spotify badge to the 'built with' section along with whatever other tech i'm using -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
+<!-- TODO Build out this section when the project is deployed
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -130,9 +168,10 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+-->
 
 <!-- USAGE EXAMPLES -->
+<!-- Add usage examples and a walkthrough when the project is deployed
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -140,13 +179,12 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+-->
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Build roadmap
+See the [roadmap for initial release](https://github.com/users/Nostromos/projects/2/views/2) for a list of basic features and functionality.
 
 See the [open issues](https://github.com/nostromos/jammming/issues) for a full list of proposed features (and known issues).
 
@@ -157,10 +195,12 @@ See the [open issues](https://github.com/nostromos/jammming/issues) for a full l
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have ideas for this project, please open an issue describing your idea and tag is as 'enhancement'.
+
+If you've worked on code that would make this better, please fork the repo and create a pull request. 
+Don't forget to star the project if you found it useful/interesting.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -173,13 +213,14 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
+<!-- TODO figure out the license for this
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+-->
 
 <!-- CONTACT -->
 ## Contact
@@ -195,9 +236,8 @@ Project Link: [https://github.com/nostromos/jammming](https://github.com/nostrom
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Codecademy](https://codecademy.com)
+* [Othneil Drew](https://github.com/othneildrew) for his README template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
