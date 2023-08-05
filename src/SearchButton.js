@@ -2,7 +2,7 @@ import React from 'react';
 
 function SearchButton() {
   return (
-    <button>Search</button>
+    <button type="submit">Search</button>
   );
 }
 
