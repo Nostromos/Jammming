@@ -1,8 +1,9 @@
 import React from 'react';
+import './SearchButton.css';
 
 function SearchButton() {
   return (
-    <button type="submit">Search</button>
+    <button className="searchbutton" type="submit">Search</button>
   );
 }
 
