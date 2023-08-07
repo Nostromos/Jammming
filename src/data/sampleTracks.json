@@ -1,0 +1,1562 @@
+{
+  "tracks": {
+    "href": "https://api.spotify.com/v1/search?query=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=track&market=US&locale=en-US%2Cen%3Bq%3D0.9&offset=0&limit=20",
+    "items": [
+      {
+        "album": {
+          "album_type": "compilation",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+              },
+              "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+              "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+              "name": "Miles Davis",
+              "type": "artist",
+              "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/7j8zzg392CqbbgrHHRlVZ3"
+          },
+          "href": "https://api.spotify.com/v1/albums/7j8zzg392CqbbgrHHRlVZ3",
+          "id": "7j8zzg392CqbbgrHHRlVZ3",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273f49f19a393e5c931a5b83ec2",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02f49f19a393e5c931a5b83ec2",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851f49f19a393e5c931a5b83ec2",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "The Complete Prestige 10-Inch LP Collection",
+          "release_date": "2016-06-03",
+          "release_date_precision": "day",
+          "total_tracks": 46,
+          "type": "album",
+          "uri": "spotify:album:7j8zzg392CqbbgrHHRlVZ3"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          }
+        ],
+        "disc_number": 8,
+        "duration_ms": 291910,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USC4R1403253"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7809fpO7iB8XTGYGwbWiQB"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7809fpO7iB8XTGYGwbWiQB",
+        "id": "7809fpO7iB8XTGYGwbWiQB",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Doxy",
+        "popularity": 4,
+        "preview_url": null,
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:7809fpO7iB8XTGYGwbWiQB"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+              },
+              "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+              "id": "1VEzN9lxvG6KPR3QQGsebR",
+              "name": "Sonny Rollins",
+              "type": "artist",
+              "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/3Vd8AghmGoyho1b5YxvgRD"
+          },
+          "href": "https://api.spotify.com/v1/albums/3Vd8AghmGoyho1b5YxvgRD",
+          "id": "3Vd8AghmGoyho1b5YxvgRD",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273bf8937601d55868f0c313073",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02bf8937601d55868f0c313073",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851bf8937601d55868f0c313073",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Sonny Rollins And The Big Brass (Expanded Edition)",
+          "release_date": "1958-01-01",
+          "release_date_precision": "day",
+          "total_tracks": 14,
+          "type": "album",
+          "uri": "spotify:album:3Vd8AghmGoyho1b5YxvgRD"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 478093,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USPR35870205"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3omdN3yiKqekoflMkvImSb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3omdN3yiKqekoflMkvImSb",
+        "id": "3omdN3yiKqekoflMkvImSb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Doxy",
+        "popularity": 28,
+        "preview_url": null,
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:3omdN3yiKqekoflMkvImSb"
+      },
+      {
+        "album": {
+          "album_type": "compilation",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+              },
+              "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+              "id": "0LyfQWJT6nXafLPZqxe9Of",
+              "name": "Various Artists",
+              "type": "artist",
+              "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1l4S4jv4SSmaMK3z2Uj1GR"
+          },
+          "href": "https://api.spotify.com/v1/albums/1l4S4jv4SSmaMK3z2Uj1GR",
+          "id": "1l4S4jv4SSmaMK3z2Uj1GR",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2738800f6002fd335e01bf35c16",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e028800f6002fd335e01bf35c16",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048518800f6002fd335e01bf35c16",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Kissing Strangers District XXIII",
+          "release_date": "2023-02-09",
+          "release_date_precision": "day",
+          "total_tracks": 49,
+          "type": "album",
+          "uri": "spotify:album:1l4S4jv4SSmaMK3z2Uj1GR"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7DEJXxztUCVCuDOmCcrmz4"
+            },
+            "href": "https://api.spotify.com/v1/artists/7DEJXxztUCVCuDOmCcrmz4",
+            "id": "7DEJXxztUCVCuDOmCcrmz4",
+            "name": "Dolci & Filosi",
+            "type": "artist",
+            "uri": "spotify:artist:7DEJXxztUCVCuDOmCcrmz4"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 74527,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "ITS582009713"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5yg3iXr2tgV1QDzh6Yds2x"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5yg3iXr2tgV1QDzh6Yds2x",
+        "id": "5yg3iXr2tgV1QDzh6Yds2x",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Davis - Radio Vrs. With Melody",
+        "popularity": 1,
+        "preview_url": "https://p.scdn.co/mp3-preview/9a85f04bd920b464ec4f986353518b713eb06f32?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 46,
+        "type": "track",
+        "uri": "spotify:track:5yg3iXr2tgV1QDzh6Yds2x"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0h7eWdIjGnItMJ7aO83egh"
+          },
+          "href": "https://api.spotify.com/v1/albums/0h7eWdIjGnItMJ7aO83egh",
+          "id": "0h7eWdIjGnItMJ7aO83egh",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273ab3c147e04594628b54ec181",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02ab3c147e04594628b54ec181",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851ab3c147e04594628b54ec181",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Roads",
+          "release_date": "2021-04-16",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:0h7eWdIjGnItMJ7aO83egh"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218888,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "GBKPL2146892"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6btxJn7OPhim2iur322FNr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6btxJn7OPhim2iur322FNr",
+        "id": "6btxJn7OPhim2iur322FNr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Roads",
+        "popularity": 29,
+        "preview_url": "https://p.scdn.co/mp3-preview/4f9babfc94734924a826d34bfdbeaefff4747472?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6btxJn7OPhim2iur322FNr"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1avZQV9yiqAmyaeO4qZkZt"
+          },
+          "href": "https://api.spotify.com/v1/albums/1avZQV9yiqAmyaeO4qZkZt",
+          "id": "1avZQV9yiqAmyaeO4qZkZt",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273b90ef674ced2fb3db490b8a4",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02b90ef674ced2fb3db490b8a4",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851b90ef674ced2fb3db490b8a4",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Home",
+          "release_date": "2020-04-17",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:1avZQV9yiqAmyaeO4qZkZt"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 178538,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "GBKPL2092307"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4P7lorPKuiqw9prTaINefV"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4P7lorPKuiqw9prTaINefV",
+        "id": "4P7lorPKuiqw9prTaINefV",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Home",
+        "popularity": 31,
+        "preview_url": "https://p.scdn.co/mp3-preview/73033065f6a6172611b88f031f8319e996125ccc?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4P7lorPKuiqw9prTaINefV"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6IgCjJUCHVW7eqnjpVZZHZ"
+              },
+              "href": "https://api.spotify.com/v1/artists/6IgCjJUCHVW7eqnjpVZZHZ",
+              "id": "6IgCjJUCHVW7eqnjpVZZHZ",
+              "name": "Davis D",
+              "type": "artist",
+              "uri": "spotify:artist:6IgCjJUCHVW7eqnjpVZZHZ"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/5RkfvHKNbhGxbMM3rUj5VV"
+          },
+          "href": "https://api.spotify.com/v1/albums/5RkfvHKNbhGxbMM3rUj5VV",
+          "id": "5RkfvHKNbhGxbMM3rUj5VV",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273b9e93516edcf69544f4363ef",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02b9e93516edcf69544f4363ef",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851b9e93516edcf69544f4363ef",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Itara",
+          "release_date": "2021-05-18",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:5RkfvHKNbhGxbMM3rUj5VV"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6IgCjJUCHVW7eqnjpVZZHZ"
+            },
+            "href": "https://api.spotify.com/v1/artists/6IgCjJUCHVW7eqnjpVZZHZ",
+            "id": "6IgCjJUCHVW7eqnjpVZZHZ",
+            "name": "Davis D",
+            "type": "artist",
+            "uri": "spotify:artist:6IgCjJUCHVW7eqnjpVZZHZ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 308133,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "QZHZ42178644"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6WAvzhVTFEMYSDKwLIOTFQ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6WAvzhVTFEMYSDKwLIOTFQ",
+        "id": "6WAvzhVTFEMYSDKwLIOTFQ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Itara",
+        "popularity": 26,
+        "preview_url": "https://p.scdn.co/mp3-preview/5c6581e72b4079751ab32db71377e3e54c2bf68b?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6WAvzhVTFEMYSDKwLIOTFQ"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/311P28JRYMveWNR8cOLh9z"
+          },
+          "href": "https://api.spotify.com/v1/albums/311P28JRYMveWNR8cOLh9z",
+          "id": "311P28JRYMveWNR8cOLh9z",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273533fa14f224ecf0959860aa8",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02533fa14f224ecf0959860aa8",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851533fa14f224ecf0959860aa8",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Anxious",
+          "release_date": "2022-04-24",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:311P28JRYMveWNR8cOLh9z"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 191870,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "GBKPL2294090"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2ksMGcEexK0RdwpOi3WBOn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2ksMGcEexK0RdwpOi3WBOn",
+        "id": "2ksMGcEexK0RdwpOi3WBOn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Anxious",
+        "popularity": 30,
+        "preview_url": "https://p.scdn.co/mp3-preview/4eb2a54e39a3b9fac5d3b1653b57cdc0d05a5b4e?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2ksMGcEexK0RdwpOi3WBOn"
+      },
+      {
+        "album": {
+          "album_type": "compilation",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5b2OzvLaL6nyxw5pbVbSdy"
+              },
+              "href": "https://api.spotify.com/v1/artists/5b2OzvLaL6nyxw5pbVbSdy",
+              "id": "5b2OzvLaL6nyxw5pbVbSdy",
+              "name": "Skeeter Davis",
+              "type": "artist",
+              "uri": "spotify:artist:5b2OzvLaL6nyxw5pbVbSdy"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2pWSwDwX3lcPSe8vHY3NDy"
+          },
+          "href": "https://api.spotify.com/v1/albums/2pWSwDwX3lcPSe8vHY3NDy",
+          "id": "2pWSwDwX3lcPSe8vHY3NDy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273d43e5bb355228ee4bc992637",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02d43e5bb355228ee4bc992637",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851d43e5bb355228ee4bc992637",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Skeeter Davis: RCA Country Legend",
+          "release_date": "2001-09-24",
+          "release_date_precision": "day",
+          "total_tracks": 16,
+          "type": "album",
+          "uri": "spotify:album:2pWSwDwX3lcPSe8vHY3NDy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2WVoGWk3tcKJd7Lc4QJ7ux"
+            },
+            "href": "https://api.spotify.com/v1/artists/2WVoGWk3tcKJd7Lc4QJ7ux",
+            "id": "2WVoGWk3tcKJd7Lc4QJ7ux",
+            "name": "The Davis Sisters",
+            "type": "artist",
+            "uri": "spotify:artist:2WVoGWk3tcKJd7Lc4QJ7ux"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 181506,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USRN10100509"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1hV5guiKDYaQCKnwXXLzyH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1hV5guiKDYaQCKnwXXLzyH",
+        "id": "1hV5guiKDYaQCKnwXXLzyH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I Forgot More Than You'll Ever Know - Remastered",
+        "popularity": 32,
+        "preview_url": "https://p.scdn.co/mp3-preview/977983d12ff3df656d5f218dc2467191643a48c7?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:1hV5guiKDYaQCKnwXXLzyH"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1phDnPqXT4r72OFGND3nKh"
+              },
+              "href": "https://api.spotify.com/v1/artists/1phDnPqXT4r72OFGND3nKh",
+              "id": "1phDnPqXT4r72OFGND3nKh",
+              "name": "Sokra",
+              "type": "artist",
+              "uri": "spotify:artist:1phDnPqXT4r72OFGND3nKh"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0woVeAnAojNHXk9tHij3vK"
+          },
+          "href": "https://api.spotify.com/v1/albums/0woVeAnAojNHXk9tHij3vK",
+          "id": "0woVeAnAojNHXk9tHij3vK",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2733bdf4ec808d65ade80c8d12a",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e023bdf4ec808d65ade80c8d12a",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048513bdf4ec808d65ade80c8d12a",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Davies",
+          "release_date": "2023-03-23",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:0woVeAnAojNHXk9tHij3vK"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1phDnPqXT4r72OFGND3nKh"
+            },
+            "href": "https://api.spotify.com/v1/artists/1phDnPqXT4r72OFGND3nKh",
+            "id": "1phDnPqXT4r72OFGND3nKh",
+            "name": "Sokra",
+            "type": "artist",
+            "uri": "spotify:artist:1phDnPqXT4r72OFGND3nKh"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 145247,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "FR9W12308322"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Jn5PlRBjZxclOLw0C8sFZ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Jn5PlRBjZxclOLw0C8sFZ",
+        "id": "5Jn5PlRBjZxclOLw0C8sFZ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Davies",
+        "popularity": 40,
+        "preview_url": null,
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:5Jn5PlRBjZxclOLw0C8sFZ"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0CyVbusmbDNR7nnJ84DyRu"
+          },
+          "href": "https://api.spotify.com/v1/albums/0CyVbusmbDNR7nnJ84DyRu",
+          "id": "0CyVbusmbDNR7nnJ84DyRu",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2730ccc4876b95ba9d3968f89a4",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e020ccc4876b95ba9d3968f89a4",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048510ccc4876b95ba9d3968f89a4",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Crooked Finger",
+          "release_date": "2016-08-05",
+          "release_date_precision": "day",
+          "total_tracks": 5,
+          "type": "album",
+          "uri": "spotify:album:0CyVbusmbDNR7nnJ84DyRu"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 163282,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "TCACQ1671306"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1ZFemmCqJoz1F9boNp5CIP"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1ZFemmCqJoz1F9boNp5CIP",
+        "id": "1ZFemmCqJoz1F9boNp5CIP",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Touch the Sky",
+        "popularity": 24,
+        "preview_url": "https://p.scdn.co/mp3-preview/e9df0ef9a79269448cd9037d782aaaa2c69afe7a?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:1ZFemmCqJoz1F9boNp5CIP"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0eVFGwSvttHQvGrdcKXbW2"
+              },
+              "href": "https://api.spotify.com/v1/artists/0eVFGwSvttHQvGrdcKXbW2",
+              "id": "0eVFGwSvttHQvGrdcKXbW2",
+              "name": "Da Vosk Docta",
+              "type": "artist",
+              "uri": "spotify:artist:0eVFGwSvttHQvGrdcKXbW2"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/7KWwNwjeZeGQcyRxXctK4F"
+          },
+          "href": "https://api.spotify.com/v1/albums/7KWwNwjeZeGQcyRxXctK4F",
+          "id": "7KWwNwjeZeGQcyRxXctK4F",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273cd15b5ceb603b272528323d5",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02cd15b5ceb603b272528323d5",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851cd15b5ceb603b272528323d5",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Gentrify",
+          "release_date": "2017-06-08",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:7KWwNwjeZeGQcyRxXctK4F"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0eVFGwSvttHQvGrdcKXbW2"
+            },
+            "href": "https://api.spotify.com/v1/artists/0eVFGwSvttHQvGrdcKXbW2",
+            "id": "0eVFGwSvttHQvGrdcKXbW2",
+            "name": "Da Vosk Docta",
+            "type": "artist",
+            "uri": "spotify:artist:0eVFGwSvttHQvGrdcKXbW2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 174231,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "QM42K1764888"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/79ZOuQjYlLT3xfJNPeYEQh"
+        },
+        "href": "https://api.spotify.com/v1/tracks/79ZOuQjYlLT3xfJNPeYEQh",
+        "id": "79ZOuQjYlLT3xfJNPeYEQh",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Gentrify",
+        "popularity": 50,
+        "preview_url": "https://p.scdn.co/mp3-preview/0c12307c18210cc7277360df8452884e26c75738?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:79ZOuQjYlLT3xfJNPeYEQh"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/3ugyWTcmO0XL85sJPBgSdl"
+          },
+          "href": "https://api.spotify.com/v1/albums/3ugyWTcmO0XL85sJPBgSdl",
+          "id": "3ugyWTcmO0XL85sJPBgSdl",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273856eb593e4883cb8a8761e2d",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02856eb593e4883cb8a8761e2d",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851856eb593e4883cb8a8761e2d",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "California",
+          "release_date": "2023-05-22",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:3ugyWTcmO0XL85sJPBgSdl"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 182042,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "QM6P42349279"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7ICxtqk652TVgQ035djtiM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7ICxtqk652TVgQ035djtiM",
+        "id": "7ICxtqk652TVgQ035djtiM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "California",
+        "popularity": 26,
+        "preview_url": "https://p.scdn.co/mp3-preview/64830d623b7a9ecc8ac9ed12d5fe416e98e06567?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:7ICxtqk652TVgQ035djtiM"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5CaV9AH4gT7gSBH5SQe4a6"
+              },
+              "href": "https://api.spotify.com/v1/artists/5CaV9AH4gT7gSBH5SQe4a6",
+              "id": "5CaV9AH4gT7gSBH5SQe4a6",
+              "name": "RK7",
+              "type": "artist",
+              "uri": "spotify:artist:5CaV9AH4gT7gSBH5SQe4a6"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/7u53hWZDirGoykSLHwJsmc"
+          },
+          "href": "https://api.spotify.com/v1/albums/7u53hWZDirGoykSLHwJsmc",
+          "id": "7u53hWZDirGoykSLHwJsmc",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273b330a7d2542e5e6490df8008",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02b330a7d2542e5e6490df8008",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851b330a7d2542e5e6490df8008",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Lake George",
+          "release_date": "2022-11-11",
+          "release_date_precision": "day",
+          "total_tracks": 34,
+          "type": "album",
+          "uri": "spotify:album:7u53hWZDirGoykSLHwJsmc"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5CaV9AH4gT7gSBH5SQe4a6"
+            },
+            "href": "https://api.spotify.com/v1/artists/5CaV9AH4gT7gSBH5SQe4a6",
+            "id": "5CaV9AH4gT7gSBH5SQe4a6",
+            "name": "RK7",
+            "type": "artist",
+            "uri": "spotify:artist:5CaV9AH4gT7gSBH5SQe4a6"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 79573,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "QZNWY2246353"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7dVTqFmQ0SFkTgprnJ5tJx"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7dVTqFmQ0SFkTgprnJ5tJx",
+        "id": "7dVTqFmQ0SFkTgprnJ5tJx",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Davis",
+        "popularity": 20,
+        "preview_url": "https://p.scdn.co/mp3-preview/bb8b8524dc9d45830208c36b21ab0fc4a0921158?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:7dVTqFmQ0SFkTgprnJ5tJx"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5CaV9AH4gT7gSBH5SQe4a6"
+              },
+              "href": "https://api.spotify.com/v1/artists/5CaV9AH4gT7gSBH5SQe4a6",
+              "id": "5CaV9AH4gT7gSBH5SQe4a6",
+              "name": "RK7",
+              "type": "artist",
+              "uri": "spotify:artist:5CaV9AH4gT7gSBH5SQe4a6"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/7l1sYi86XYFswWRQamNPv3"
+          },
+          "href": "https://api.spotify.com/v1/albums/7l1sYi86XYFswWRQamNPv3",
+          "id": "7l1sYi86XYFswWRQamNPv3",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27397b517c8eeb3800c5d38308f",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0297b517c8eeb3800c5d38308f",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485197b517c8eeb3800c5d38308f",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Missouri, Vol. 2",
+          "release_date": "2022-08-08",
+          "release_date_precision": "day",
+          "total_tracks": 29,
+          "type": "album",
+          "uri": "spotify:album:7l1sYi86XYFswWRQamNPv3"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5CaV9AH4gT7gSBH5SQe4a6"
+            },
+            "href": "https://api.spotify.com/v1/artists/5CaV9AH4gT7gSBH5SQe4a6",
+            "id": "5CaV9AH4gT7gSBH5SQe4a6",
+            "name": "RK7",
+            "type": "artist",
+            "uri": "spotify:artist:5CaV9AH4gT7gSBH5SQe4a6"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 75786,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "QZHNC2231485"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6sPuIIcwyjKqOtBUxtvY7I"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6sPuIIcwyjKqOtBUxtvY7I",
+        "id": "6sPuIIcwyjKqOtBUxtvY7I",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Daviess (MO)",
+        "popularity": 17,
+        "preview_url": "https://p.scdn.co/mp3-preview/6ff25d92ac8776fe2ab489e70cad686935d02c5f?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:6sPuIIcwyjKqOtBUxtvY7I"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2ClvD7mMXALQFvBDHM2lHw"
+          },
+          "href": "https://api.spotify.com/v1/albums/2ClvD7mMXALQFvBDHM2lHw",
+          "id": "2ClvD7mMXALQFvBDHM2lHw",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273953ea68714e30d6474e13c7f",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02953ea68714e30d6474e13c7f",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851953ea68714e30d6474e13c7f",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Peace Love and Rock n Roll",
+          "release_date": "2018-08-17",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:2ClvD7mMXALQFvBDHM2lHw"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 170431,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "GBKPL1818555"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6vK69ljWuCyMHdATweYH6h"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6vK69ljWuCyMHdATweYH6h",
+        "id": "6vK69ljWuCyMHdATweYH6h",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Peace Love and Rock n Roll",
+        "popularity": 36,
+        "preview_url": "https://p.scdn.co/mp3-preview/0172277d43fe20689ab94f4294ca29c5294c5762?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6vK69ljWuCyMHdATweYH6h"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0CyVbusmbDNR7nnJ84DyRu"
+          },
+          "href": "https://api.spotify.com/v1/albums/0CyVbusmbDNR7nnJ84DyRu",
+          "id": "0CyVbusmbDNR7nnJ84DyRu",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2730ccc4876b95ba9d3968f89a4",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e020ccc4876b95ba9d3968f89a4",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048510ccc4876b95ba9d3968f89a4",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Crooked Finger",
+          "release_date": "2016-08-05",
+          "release_date_precision": "day",
+          "total_tracks": 5,
+          "type": "album",
+          "uri": "spotify:album:0CyVbusmbDNR7nnJ84DyRu"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 212220,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "TCACQ1671260"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/67aM9AJ569kEdJSLBIiOTz"
+        },
+        "href": "https://api.spotify.com/v1/tracks/67aM9AJ569kEdJSLBIiOTz",
+        "id": "67aM9AJ569kEdJSLBIiOTz",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Get Mine",
+        "popularity": 40,
+        "preview_url": "https://p.scdn.co/mp3-preview/e75f02231b553f9753cc53ac86913b11b5392c97?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:67aM9AJ569kEdJSLBIiOTz"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0xImvaCXM8Z5G4uOu0QkmQ"
+          },
+          "href": "https://api.spotify.com/v1/albums/0xImvaCXM8Z5G4uOu0QkmQ",
+          "id": "0xImvaCXM8Z5G4uOu0QkmQ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27303decafd7d89e8722f50f197",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0203decafd7d89e8722f50f197",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485103decafd7d89e8722f50f197",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Dead Safari",
+          "release_date": "2023-01-06",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:0xImvaCXM8Z5G4uOu0QkmQ"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 170240,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "QM4TW2306894"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4WSGbYsSQUVtljwdR7z2rm"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4WSGbYsSQUVtljwdR7z2rm",
+        "id": "4WSGbYsSQUVtljwdR7z2rm",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dead Safari",
+        "popularity": 29,
+        "preview_url": "https://p.scdn.co/mp3-preview/ed00ae2f33b9892509a1b43ee073ca7cb1f20dc1?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4WSGbYsSQUVtljwdR7z2rm"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/573gwDjiF96xOtsSWYo1Oi"
+          },
+          "href": "https://api.spotify.com/v1/albums/573gwDjiF96xOtsSWYo1Oi",
+          "id": "573gwDjiF96xOtsSWYo1Oi",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273bd559861f20974c9ecc85d16",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02bd559861f20974c9ecc85d16",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851bd559861f20974c9ecc85d16",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Wonderland Blues",
+          "release_date": "2021-06-25",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:573gwDjiF96xOtsSWYo1Oi"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 250624,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "GBKPL2156292"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6w4eBWvsHhxqJUWSWtHjki"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6w4eBWvsHhxqJUWSWtHjki",
+        "id": "6w4eBWvsHhxqJUWSWtHjki",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Wonderland Blues",
+        "popularity": 28,
+        "preview_url": "https://p.scdn.co/mp3-preview/9915ce7b570261e4952d757ebf8ef8e9c6fa5aa8?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6w4eBWvsHhxqJUWSWtHjki"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5oFuxeDSVomAaGqzgtePVA"
+              },
+              "href": "https://api.spotify.com/v1/artists/5oFuxeDSVomAaGqzgtePVA",
+              "id": "5oFuxeDSVomAaGqzgtePVA",
+              "name": "AMP Forever",
+              "type": "artist",
+              "uri": "spotify:artist:5oFuxeDSVomAaGqzgtePVA"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/191UYpaCQTEzWXTb5S4mGV"
+          },
+          "href": "https://api.spotify.com/v1/albums/191UYpaCQTEzWXTb5S4mGV",
+          "id": "191UYpaCQTEzWXTb5S4mGV",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273961cb95c3a6b6a4fa06f21ea",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02961cb95c3a6b6a4fa06f21ea",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851961cb95c3a6b6a4fa06f21ea",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "AMP FRESHMAN CYPHER 2023",
+          "release_date": "2023-07-27",
+          "release_date_precision": "day",
+          "total_tracks": 7,
+          "type": "album",
+          "uri": "spotify:album:191UYpaCQTEzWXTb5S4mGV"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5oFuxeDSVomAaGqzgtePVA"
+            },
+            "href": "https://api.spotify.com/v1/artists/5oFuxeDSVomAaGqzgtePVA",
+            "id": "5oFuxeDSVomAaGqzgtePVA",
+            "name": "AMP Forever",
+            "type": "artist",
+            "uri": "spotify:artist:5oFuxeDSVomAaGqzgtePVA"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 102857,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "QM42K2334033"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/70F6Q6dO0cnUM5gvED5PNR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/70F6Q6dO0cnUM5gvED5PNR",
+        "id": "70F6Q6dO0cnUM5gvED5PNR",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Davis",
+        "popularity": 27,
+        "preview_url": "https://p.scdn.co/mp3-preview/3d6a89854a66c70cd33f5630cd93b00778ea88a3?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:70F6Q6dO0cnUM5gvED5PNR"
+      },
+      {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+              },
+              "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+              "id": "1Nejskv080HulTwcWnNPUr",
+              "name": "DAVIS",
+              "type": "artist",
+              "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2WNLlgOa4alGHNzPGMWDzo"
+          },
+          "href": "https://api.spotify.com/v1/albums/2WNLlgOa4alGHNzPGMWDzo",
+          "id": "2WNLlgOa4alGHNzPGMWDzo",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273ffbe862823d727cf1cfcab82",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02ffbe862823d727cf1cfcab82",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851ffbe862823d727cf1cfcab82",
+              "width": 64
+            }
+          ],
+          "is_playable": true,
+          "name": "Together",
+          "release_date": "2020-12-04",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:2WNLlgOa4alGHNzPGMWDzo"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Nejskv080HulTwcWnNPUr"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Nejskv080HulTwcWnNPUr",
+            "id": "1Nejskv080HulTwcWnNPUr",
+            "name": "DAVIS",
+            "type": "artist",
+            "uri": "spotify:artist:1Nejskv080HulTwcWnNPUr"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 207960,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "GBKPL2030308"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0dsnjPNLsUmT75GtAkp50v"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0dsnjPNLsUmT75GtAkp50v",
+        "id": "0dsnjPNLsUmT75GtAkp50v",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Together",
+        "popularity": 21,
+        "preview_url": "https://p.scdn.co/mp3-preview/628d7c8a522e2e15a1f5411c2ba384a8d087ce52?cid=0575e529c9df4283802cd2aed4c53f7f",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0dsnjPNLsUmT75GtAkp50v"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/search?query=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=track&market=US&locale=en-US%2Cen%3Bq%3D0.9&offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 800
+  }
+}
