@@ -1,7 +1,15 @@
 import React from 'react';
 
-function Track() {
-  return <p>track</p>;
+function Track({ track }) {
+  return (
+    <div className="track">
+      {props.track.name}
+      {' - '}
+      {props.track.artist}
+      <br />
+      {props.track.album}
+    </div>
+  );
 }
 
 export default Track;
