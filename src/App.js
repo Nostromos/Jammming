@@ -1,6 +1,6 @@
 import React from 'react';
-import SearchBar from './SearchBar';
-import SearchButton from './SearchButton';
+import SearchBar from './components/SearchBar/SearchBar';
+import SearchButton from './components/SearchButton/SearchButton';
 
 function App() {
   return (
