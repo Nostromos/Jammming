@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 
 function Track({ track }) {
   return (
     <div className="track">
-      {props.track.name}
+      {track.name}
       {' - '}
-      {props.track.artist}
+      {track.artist}
       <br />
-      {props.track.album}
+      {track.album}
     </div>
   );
 }

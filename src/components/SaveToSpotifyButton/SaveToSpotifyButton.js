@@ -2,7 +2,7 @@ import React from 'react';
 
 function SaveToSpotifyButton() {
   return (
-    <button type="submit">Save to spotify</button>
+    <button type="submit">Save</button>
   );
 }
 
