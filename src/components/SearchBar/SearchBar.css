@@ -1,3 +1,9 @@
 .searchbar {
   display: inline-flex;
 }
+
+.SearchButton {
+  background-color: #1ED760;
+  border-radius: 500px;
+  border: 0px;
+}

@@ -7,6 +7,7 @@ module.exports = {
     'airbnb',
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
   ],
   overrides: [
     {
@@ -27,7 +28,5 @@ module.exports = {
   },
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    eqeqeq: 'off',
-    'no-console': 'off',
   },
 };
