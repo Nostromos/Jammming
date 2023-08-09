@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
+
 import SearchBar from './components/SearchBar/SearchBar';
-import SearchButton from './components/SearchButton/SearchButton';
-import TrackList from './components/TrackList/TrackList';
+import SearchResults from './components/SearchResults/SearchResults';
+import Playlist from './components/Playlist/Playlist';
 import Spotify from './Spotify';
 
 function App() {
@@ -28,9 +29,31 @@ function App() {
     });
   };
 
+  const updatePlaylistName = useCallback((name) => {
+    setPlaylistName(name);
+  }, []);
+
+  const savePlaylist = useCallback(() => {
+    const trackUris = playlistTracks.map((track) => track.uri);
+    Spotify.savePlaylist(playlistName, trackUris).then(() => {
+      setPlaylistName('New Playlist');
+      setPlaylistTracks([]);
+    });
+  });
+
   return (
     <div className="app">
       <SearchBar onSearch={search} />
+      <div className="playlist">
+        <SearchResults searchResults={searchResults} onAdd={addTrack} />
+        <Playlist
+          playlistName={playlistName}
+          playlistTracks={playlistTracks}
+          onNameChange={updatePlaylistName}
+          onRemove={removeTrack}
+          onSave={savePlaylist}
+        />
+      </div>
     </div>
   );
 }

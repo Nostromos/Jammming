@@ -1,7 +1,7 @@
+/* eslint-disable no-console */
 const SpotifyInfo = {
   clientId: '0535e48de9ed48288fd1cd581fc6a467',
   clientSecret: 'ba29add329844e42bdb3b201c1237f43',
-  token: {},
   redirectUri: 'http://localhost:3000',
   userId: '1222778101',
   endpoints: {
@@ -15,20 +15,30 @@ const SpotifyInfo = {
   },
 };
 
+// eslint-disable-next-line no-unused-vars
+let accessToken;
+
 const Spotify = {
   async getAccessToken() {
-    await fetch(SpotifyInfo.endpoints.tokenEndpoint, {
+    // console.log('Getting access token...');
+    const response = await fetch(SpotifyInfo.endpoints.tokenEndpoint, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
       },
       body: `grant_type=client_credentials&client_id=${SpotifyInfo.clientId}&client_secret=${SpotifyInfo.clientSecret}`,
     })
-      .then((response) => response.json())
-      .then((jsonResponse) => {
-        SpotifyInfo.token = jsonResponse;
-        return SpotifyInfo.token.access_token;
+      // eslint-disable-next-line arrow-body-style
+      .then((res) => {
+        // console.log(response.status);
+        return res.json();
+      })
+      .then((jsonRes) => {
+        // eslint-disable-next-line prefer-destructuring
+        accessToken = jsonRes.access_token;
+        return accessToken;
       });
+    return response;
   },
 
   // eslint-disable-next-line no-unused-vars
@@ -51,15 +61,22 @@ const Spotify = {
   },
 
   async search(term) {
-    const accessToken = Spotify.getAccessToken();
-
-    await fetch(
-      SpotifyInfo.endpoints.apiUrl + SpotifyInfo.endpoints.search + term,
-      { headers: { Authorization: `Bearer ${accessToken}` } },
-    )
-      .then((response) => response.json())
+    const token = await Spotify.getAccessToken();
+    console.log(`Searching for ${term}...`);
+    await fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
+      .then((response) => {
+        console.log(`Response Status: ${response.status}`);
+        console.log('JSONifying response...');
+        return response.json();
+      })
       .then((jsonResponse) => {
+        console.log('JSON successful.');
         if (!jsonResponse.tracks) {
+          console.log('Response was empty.');
           return [];
         }
         return jsonResponse.tracks.items.map((track) => ({
@@ -72,7 +89,5 @@ const Spotify = {
       });
   },
 };
-
-Spotify.getAccessToken();
 
 // export default Spotify;
