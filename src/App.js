@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState, useCallback } from 'react';
 
 import SearchBar from './components/SearchBar/SearchBar';
@@ -6,28 +5,29 @@ import SearchResults from './components/SearchResults/SearchResults';
 import Playlist from './components/Playlist/Playlist';
 import Spotify from './Spotify';
 
+import './App.css';
+
 function App() {
-  const { searchResults, setSearchResults } = useState([]);
-  const { playlistName, setPlaylistName } = useState('');
-  const { playlistTracks, setPlaylistTracks } = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
+  const [playlistName, setPlaylistName] = useState('');
+  const [playlistTracks, setPlaylistTracks] = useState([]);
 
-  const search = (term) => {
+  const search = useCallback((term) => {
     Spotify.search(term).then(setSearchResults);
-  };
+  }, []);
 
-  const addTrack = (track) => {
+  const addTrack = useCallback((track) => {
     if (playlistTracks.some((savedTrack) => savedTrack.id === track.id)) {
       return;
     }
-
     setPlaylistTracks((prevTracks) => [...prevTracks, track]);
-  };
+  }, [playlistTracks]);
 
-  const removeTrack = (track) => {
+  const removeTrack = useCallback((track) => {
     setPlaylistTracks((prevTracks) => {
       prevTracks.filter((currentTrack) => currentTrack.id !== track.id);
     });
-  };
+  }, [playlistTracks]);
 
   const updatePlaylistName = useCallback((name) => {
     setPlaylistName(name);

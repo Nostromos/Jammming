@@ -6,9 +6,10 @@ module.exports = {
   extends: [
     'airbnb',
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:react/recommended',
   ],
+  plugins: ['react'],
   overrides: [
     {
       env: {

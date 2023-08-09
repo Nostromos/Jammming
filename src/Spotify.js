@@ -1,7 +1,10 @@
 /* eslint-disable no-console */
+
+const { clientid, clientsecret } = require('./keys');
+
 const SpotifyInfo = {
-  clientId: '0535e48de9ed48288fd1cd581fc6a467',
-  clientSecret: 'ba29add329844e42bdb3b201c1237f43',
+  clientId: clientid,
+  clientSecret: clientsecret,
   redirectUri: 'http://localhost:3000',
   userId: '1222778101',
   endpoints: {
@@ -20,7 +23,7 @@ let accessToken;
 
 const Spotify = {
   async getAccessToken() {
-    // console.log('Getting access token...');
+    console.log('Getting access token...');
     const response = await fetch(SpotifyInfo.endpoints.tokenEndpoint, {
       method: 'POST',
       headers: {
@@ -30,14 +33,20 @@ const Spotify = {
     })
       // eslint-disable-next-line arrow-body-style
       .then((res) => {
-        // console.log(response.status);
+        console.log(`Access Token Status: ${res.status}`);
+        console.log('Turning response to JSON...');
         return res.json();
       })
       .then((jsonRes) => {
         // eslint-disable-next-line prefer-destructuring
+        console.log('JSONifying response successful...');
+        console.log('Setting access token...');
         accessToken = jsonRes.access_token;
         return accessToken;
-      });
+      })
+      .catch((e) => console.log(e));
+    // console.log(`Your token is: ${accessToken}`);
+    // console.log(`Your response is: ${response}`);
     return response;
   },
 
@@ -63,15 +72,15 @@ const Spotify = {
   async search(term) {
     const token = await Spotify.getAccessToken();
     console.log(`Searching for ${term}...`);
-    await fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
+    const response = await fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     })
-      .then((response) => {
-        console.log(`Response Status: ${response.status}`);
+      .then((res) => {
+        console.log(`Search API Response Status: ${res.status}`);
         console.log('JSONifying response...');
-        return response.json();
+        return res.json();
       })
       .then((jsonResponse) => {
         console.log('JSON successful.');
@@ -79,15 +88,16 @@ const Spotify = {
           console.log('Response was empty.');
           return [];
         }
-        return jsonResponse.tracks.items.map((track) => ({
-          id: track.id,
-          name: track.name,
-          artist: track.artists[0].name,
-          album: track.album.name,
-          uri: track.uri,
-        }));
+        return jsonResponse;
       });
+    return response.tracks.items.map((track) => ({
+      id: track.id,
+      name: track.name,
+      artist: track.artists[0].name,
+      album: track.album.name,
+      uri: track.uri,
+    }));
   },
 };
 
-// export default Spotify;
+export default Spotify;

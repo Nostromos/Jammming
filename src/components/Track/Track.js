@@ -3,6 +3,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useCallback } from 'react';
 
+import './Track.css';
+
 function Track({
   track, onAdd, onRemove, isRemoval,
 }) {

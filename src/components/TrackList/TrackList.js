@@ -5,10 +5,15 @@
 import React from 'react';
 
 import Track from '../Track/Track';
+import './TrackList.css';
 
-console.log(typeof sampleTracks);
-
-function TrackList({ tracks }) {
+function TrackList({
+  tracks, onAdd, isRemoval, onRemove,
+}) {
+  if (!tracks) {
+    return;
+  }
+  // eslint-disable-next-line consistent-return
   return (
     <div className="TrackList">
       {tracks.map((track) => {
@@ -16,6 +21,9 @@ function TrackList({ tracks }) {
           <Track
             track={track}
             key={track.id}
+            onAdd={onAdd}
+            isRemoval={isRemoval}
+            onRemove={onRemove}
           />
         );
       })}

@@ -2,6 +2,8 @@
 import React, { useCallback } from 'react';
 import TrackList from '../TrackList/TrackList';
 
+import './Playlist.css';
+
 // eslint-disable-next-line react/prop-types
 function Playlist({ onNameChange, playlistTracks, onRemove }) {
   const handleNameChange = useCallback((event) => {

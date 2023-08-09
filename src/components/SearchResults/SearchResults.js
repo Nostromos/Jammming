@@ -2,6 +2,8 @@
 import React from 'react';
 import TrackList from '../TrackList/TrackList';
 
+import './SearchResults.css';
+
 // eslint-disable-next-line react/prop-types
 function SearchResults({ searchResults, onAdd }) {
   return (
